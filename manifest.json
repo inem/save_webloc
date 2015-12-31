@@ -21,18 +21,8 @@
 
 	"browser_action": {
 		"default_icon": "images/icons/save/save_38.png",
-		"default_title": "Save this page as a .webloc file."
+		"default_title": "Save this page a .webloc file"
 	},
-
-  "commands": {
-    "save-shortcut": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+S",
-        "mac": "Command+Shift+S"
-      },
-      "description": "Save .webloc"
-    }
-  },
 
 	"permissions": [
 		"tabs",

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Save as Shortcut</title>
+		
+		<link href="../css/global.css" rel="stylesheet" type="text/css" />
+		<link href="../css/save.css" rel="stylesheet" type="text/css" />
+		<link href="../css/options.css" rel="stylesheet" type="text/css" />
+		<link href="../css/info.css" rel="stylesheet" type="text/css" />
+		
+		<script src="../js/global.js"></script>
+		<script src="../js/save.js"></script>
+		<script src="../js/options.js"></script>
+		<script src="../js/info.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			
+			<div id="save_Wrapper" class="mainSection">
+				<div id="save_Label_Wrapper" class="label">
+					<h1 id="save_Label">Save</h1>
+				</div>
+				
+				<div id="save_Content_Wrapper" class="subSection" style="display: block;">
+					<form id="save_Form_Wrapper">
+						<div id="save_Form_Name_Wrapper">
+							<div id="save_Form_Name_Label">
+								<span>Name:</span>
+							</div>
+							
+							<div id="save_Form_Name_Field">
+								<input type="text" placeholder="fileName" tabindex="0" nav-index="1" id="save_Name_Field" />
+								<!-- Unless tabindex="0" is set, Chrome on Mac will auto-focus and -highlight to the element -->
+							</div>
+						</div>
+						
+						<div id="save_Form_URL_Wrapper" class="subSubSection">
+							<div id="save_Form_URL_Label">
+								<span>URL:</span>
+							</div>
+							
+							<div id="save_Form_URL_Field">
+								<input type="text" placeholder="http://example.com" tabindex="0" nav-index="2" id="save_URL_Field" />
+								<!-- Unless tabindex="0" is set, Chrome on Mac will auto-focus and -highlight to the element -->
+							</div>
+						</div>
+					</form>
+					<div id="save_Download_Wrapper" class="subSubSection">
+						<div id="save_Download_Button" class="center">
+							<a id="save_Download_Button_Label" class="button">Save</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="info_Wrapper" class="mainSection" style="display: none;">
+				<div id="info_Label_Wrapper" class="label">
+					<h1 id="info_Label">Info</h1>
+				</div>
+				
+				<div id="info_Content_Wrapper" class="subSection">
+					<div id="info_Twitter_Wrapper">
+						<a href="https://twitter.com/MythOfEchelon" target="_blank">Twitter</a>
+					</div>
+					<div id="info_Email_Wrapper" class="subSubSection">
+						<a href="mailto:ben@mythofechelon.co.uk" target="_top">Email</a>
+					</div>
+					<div id="info_Website_Wrapper" class="subSubSection">
+						<a href="http://mythofechelon.co.uk" target="_blank">Website</a>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+	</body>
+</html>

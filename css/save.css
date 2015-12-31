@@ -1,0 +1,20 @@
+/* Start: Elements */
+	#save_Download_Wrapper {
+		width: 100%;
+	}
+	
+	#save_Download_Button {
+		width: 85px;
+	}
+	
+	#save_URL_Wrapper {
+		margin-top: 15px;
+	}
+	
+	#save_Form_Name_Label, #save_Form_URL_Label {
+		width: 45px;
+		margin-top: 4px;
+		text-align: right;
+		margin-right: 10px;
+	}
+/* End: Elements */

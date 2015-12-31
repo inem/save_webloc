@@ -1,7 +1,7 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-	"name": "Webloc saver",
+	"name": "Link saver for OS X",
 	"description": "Saves current page as .webloc file",
 	"icons": {
 		"16": "images/icons/save/save_16.png",
@@ -10,7 +10,7 @@
     "500": "images/icons/save/save_500.png"
 	 },
 
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"minimum_chrome_version": "21",
 	"manifest_version": 2,
 
